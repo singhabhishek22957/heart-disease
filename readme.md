@@ -227,42 +227,6 @@ pip install -r requirements.txt
 
 ---
 
-# 🔄 Retraining the Model (Optional)
-
-If you train a new model, save the required files:
-
-```python
-import joblib
-
-joblib.dump(model, "KNN_heart.pkl")
-joblib.dump(scaler, "scaler.pkl")
-joblib.dump(X.columns.tolist(), "columns.pkl")
-```
-
-**Important:** Use `X.columns.tolist()` with parentheses. Omitting `()` will save the method instead of the actual list of feature names.
-
----
-
-# 📷 Screenshots
-
-You can add screenshots of the application here.
-
-Example:
-
-```text
-screenshots/
-    home.png
-    prediction.png
-```
-
-Then include them in the README:
-
-```markdown
-![Home Screen](screenshots/home.png)
-
-![Prediction Result](screenshots/prediction.png)
-```
-
 ---
 
 # 📄 License
